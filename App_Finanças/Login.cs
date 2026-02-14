@@ -6,17 +6,22 @@ using System.Threading.Tasks;
 
 namespace App_Finanças
 {
-    public class Login : Registers
+    public class Login
     {
         private readonly Authentication authentication;
+        private readonly TokenService tokenService;
+
+
         public string UserLogin(string email, string password)
         {
-            if(!authentication.Authenticate(email, password))
-            {
-                return "Falha no login: Email ou senha incorretos.";
-            }
+            var isValid = authentication.Authenticate(email, password);
 
-            return "Login realizado com sucesso!";
+            if (!isValid)
+                return "Email ou senha incorretos";
+
+            var token = tokenService.GenerateToken(email);
+
+            return token;
         }
 
     }

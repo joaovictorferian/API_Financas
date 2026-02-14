@@ -1,0 +1,778 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2026-02-12T06:44:32.1028418Z",
+  "analysisEndTime": "2026-02-12T06:44:44.7179683Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 1,
+      "issues": 8,
+      "incidents": 25,
+      "effort": 25
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 11,
+        "Optional": 0,
+        "Potential": 14,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 9,
+        "Project": 2,
+        "Api": 14
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+      "startingProject": true,
+      "issues": 6,
+      "storyPoints": 25,
+      "properties": {
+        "appName": "App_Finan\u00E7as",
+        "projectKind": "ClassicDotNetApp",
+        "frameworks": [
+          "net472"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 12,
+        "numberOfCodeFiles": 11,
+        "linesTotal": 401,
+        "linesOfCode": 367,
+        "totalApiScanned": 238,
+        "minLinesOfCodeToChange": 14,
+        "maxLinesOfCodeToChange": 14
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "d338edf2-f541-491e-b7cd-cc3248aa06ca",
+          "ruleId": "NuGet.0002",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Bcl.TimeProvider, 8.0.1\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.Bcl.TimeProvider, and replace with new package Microsoft.Bcl.TimeProvider 10.0.3",
+              "protected": "Microsoft.Bcl.TimeProvider, 8.0.1\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.Bcl.TimeProvider, and replace with new package Microsoft.Bcl.TimeProvider 10.0.3"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "Microsoft.Bcl.TimeProvider, 8.0.1\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.Bcl.TimeProvider, and replace with new package Microsoft.Bcl.TimeProvider 10.0.3",
+            "protectedSnippet": "Microsoft.Bcl.TimeProvider, 8.0.1\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.Bcl.TimeProvider, and replace with new package Microsoft.Bcl.TimeProvider 10.0.3",
+            "label": "Microsoft.Bcl.TimeProvider 8.0.1",
+            "properties": {
+              "PackageId": "Microsoft.Bcl.TimeProvider",
+              "PackageVersion": "8.0.1",
+              "PackageNewVersion": "10.0.3",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "6aafa90e-56bf-4a21-95a8-b9630ea1d3c7",
+          "ruleId": "NuGet.0002",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Extensions.Logging.Abstractions, 2.1.0\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.Extensions.Logging.Abstractions, and replace with new package Microsoft.Extensions.Logging.Abstractions 10.0.3",
+              "protected": "Microsoft.Extensions.Logging.Abstractions, 2.1.0\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.Extensions.Logging.Abstractions, and replace with new package Microsoft.Extensions.Logging.Abstractions 10.0.3"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "Microsoft.Extensions.Logging.Abstractions, 2.1.0\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.Extensions.Logging.Abstractions, and replace with new package Microsoft.Extensions.Logging.Abstractions 10.0.3",
+            "protectedSnippet": "Microsoft.Extensions.Logging.Abstractions, 2.1.0\n\nRecomenda\u00E7\u00E3o:\n\nRemove Microsoft.Extensions.Logging.Abstractions, and replace with new package Microsoft.Extensions.Logging.Abstractions 10.0.3",
+            "label": "Microsoft.Extensions.Logging.Abstractions 2.1.0",
+            "properties": {
+              "PackageId": "Microsoft.Extensions.Logging.Abstractions",
+              "PackageVersion": "2.1.0",
+              "PackageNewVersion": "10.0.3",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "123c2208-5b8e-450a-865e-0de78e4548f0",
+          "ruleId": "NuGet.0003",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Buffers, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+              "protected": "System.Buffers, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "System.Buffers, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "protectedSnippet": "System.Buffers, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "label": "System.Buffers 4.6.1",
+            "properties": {
+              "PackageId": "System.Buffers",
+              "PackageVersion": "4.6.1",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "8ff03bc6-d7aa-4e0f-9282-25658c77a07e",
+          "ruleId": "NuGet.0002",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Diagnostics.DiagnosticSource, 6.0.2\n\nRecomenda\u00E7\u00E3o:\n\nRemove System.Diagnostics.DiagnosticSource, and replace with new package System.Diagnostics.DiagnosticSource 10.0.3",
+              "protected": "System.Diagnostics.DiagnosticSource, 6.0.2\n\nRecomenda\u00E7\u00E3o:\n\nRemove System.Diagnostics.DiagnosticSource, and replace with new package System.Diagnostics.DiagnosticSource 10.0.3"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "System.Diagnostics.DiagnosticSource, 6.0.2\n\nRecomenda\u00E7\u00E3o:\n\nRemove System.Diagnostics.DiagnosticSource, and replace with new package System.Diagnostics.DiagnosticSource 10.0.3",
+            "protectedSnippet": "System.Diagnostics.DiagnosticSource, 6.0.2\n\nRecomenda\u00E7\u00E3o:\n\nRemove System.Diagnostics.DiagnosticSource, and replace with new package System.Diagnostics.DiagnosticSource 10.0.3",
+            "label": "System.Diagnostics.DiagnosticSource 6.0.2",
+            "properties": {
+              "PackageId": "System.Diagnostics.DiagnosticSource",
+              "PackageVersion": "6.0.2",
+              "PackageNewVersion": "10.0.3",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "dbec8d92-5b1d-414b-b651-c94254bd208c",
+          "ruleId": "NuGet.0002",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Formats.Asn1, 8.0.1\n\nRecomenda\u00E7\u00E3o:\n\nRemove System.Formats.Asn1, and replace with new package System.Formats.Asn1 10.0.3",
+              "protected": "System.Formats.Asn1, 8.0.1\n\nRecomenda\u00E7\u00E3o:\n\nRemove System.Formats.Asn1, and replace with new package System.Formats.Asn1 10.0.3"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "System.Formats.Asn1, 8.0.1\n\nRecomenda\u00E7\u00E3o:\n\nRemove System.Formats.Asn1, and replace with new package System.Formats.Asn1 10.0.3",
+            "protectedSnippet": "System.Formats.Asn1, 8.0.1\n\nRecomenda\u00E7\u00E3o:\n\nRemove System.Formats.Asn1, and replace with new package System.Formats.Asn1 10.0.3",
+            "label": "System.Formats.Asn1 8.0.1",
+            "properties": {
+              "PackageId": "System.Formats.Asn1",
+              "PackageVersion": "8.0.1",
+              "PackageNewVersion": "10.0.3",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "6b12c1ba-876b-4749-a7f2-a5e8e7a35c55",
+          "ruleId": "NuGet.0003",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Memory, 4.6.3\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+              "protected": "System.Memory, 4.6.3\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "System.Memory, 4.6.3\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "protectedSnippet": "System.Memory, 4.6.3\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "label": "System.Memory 4.6.3",
+            "properties": {
+              "PackageId": "System.Memory",
+              "PackageVersion": "4.6.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "dfa8fe3c-7de0-473d-aa95-2fe6143d8190",
+          "ruleId": "NuGet.0003",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Numerics.Vectors, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+              "protected": "System.Numerics.Vectors, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "System.Numerics.Vectors, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "protectedSnippet": "System.Numerics.Vectors, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "label": "System.Numerics.Vectors 4.6.1",
+            "properties": {
+              "PackageId": "System.Numerics.Vectors",
+              "PackageVersion": "4.6.1",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "8b3661c5-0293-4ab0-8b99-dc31c51f3e83",
+          "ruleId": "NuGet.0003",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Threading.Tasks.Extensions, 4.6.3\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+              "protected": "System.Threading.Tasks.Extensions, 4.6.3\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "System.Threading.Tasks.Extensions, 4.6.3\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "protectedSnippet": "System.Threading.Tasks.Extensions, 4.6.3\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "label": "System.Threading.Tasks.Extensions 4.6.3",
+            "properties": {
+              "PackageId": "System.Threading.Tasks.Extensions",
+              "PackageVersion": "4.6.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "6459448a-76c2-46f2-bc64-7e3d82c1605c",
+          "ruleId": "NuGet.0003",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.ValueTuple, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+              "protected": "System.ValueTuple, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "System.ValueTuple, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "protectedSnippet": "System.ValueTuple, 4.6.1\n\nRecomenda\u00E7\u00E3o:\n\nFuncionalidade do pacote inclu\u00EDda com a nova refer\u00EAncia de estrutura",
+            "label": "System.ValueTuple 4.6.1",
+            "properties": {
+              "PackageId": "System.ValueTuple",
+              "PackageVersion": "4.6.1",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "53b43caa-bf1e-4b8b-909c-376825f65a81",
+          "ruleId": "Project.0001",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj"
+          }
+        },
+        {
+          "incidentId": "03ff098c-f2a3-408c-8040-f46a0111adae",
+          "ruleId": "Project.0002",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Estrutura de destino atual: .NETFramework,Version=v4.7.2\nEstrutura de destino recomendada: net10.0",
+              "protected": "Estrutura de destino atual: .NETFramework,Version=v4.7.2\nEstrutura de destino recomendada: net10.0"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+            "snippet": "Estrutura de destino atual: .NETFramework,Version=v4.7.2\nEstrutura de destino recomendada: net10.0",
+            "protectedSnippet": "Estrutura de destino atual: .NETFramework,Version=v4.7.2\nEstrutura de destino recomendada: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.7.2",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "0a7cd75c-b387-4776-83f0-111f943f7045",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Console.WriteLine(\u0022EmailService.SendEmail executed. SmtpServer: \u0022 \u002B ConfigurationManager.AppSettings[\u0022SmtpServer\u0022]);",
+              "protected": "T:System.Configuration.ConfigurationManager"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\Program.cs",
+            "snippet": "Console.WriteLine(\u0022EmailService.SendEmail executed. SmtpServer: \u0022 \u002B ConfigurationManager.AppSettings[\u0022SmtpServer\u0022]);",
+            "protectedSnippet": "T:System.Configuration.ConfigurationManager",
+            "label": "T:System.Configuration.ConfigurationManager",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 50,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "9afc560b-6baf-4214-8455-c00c90b10402",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Console.WriteLine(\u0022EmailService.SendEmail executed. SmtpServer: \u0022 \u002B ConfigurationManager.AppSettings[\u0022SmtpServer\u0022]);",
+              "protected": "P:System.Configuration.ConfigurationManager.AppSettings"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\Program.cs",
+            "snippet": "Console.WriteLine(\u0022EmailService.SendEmail executed. SmtpServer: \u0022 \u002B ConfigurationManager.AppSettings[\u0022SmtpServer\u0022]);",
+            "protectedSnippet": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "label": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 50,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "9c3d0108-f93e-44a1-83d3-a1fde64104d1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return tokenHandler.WriteToken(token);",
+              "protected": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(Microsoft.IdentityModel.Tokens.SecurityToken)"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\TokenService.cs",
+            "snippet": "return tokenHandler.WriteToken(token);",
+            "protectedSnippet": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(Microsoft.IdentityModel.Tokens.SecurityToken)",
+            "label": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(Microsoft.IdentityModel.Tokens.SecurityToken)",
+            "line": 33,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "4ffb5b6d-399a-43d4-bc42-1ef21d896016",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var token = tokenHandler.CreateToken(tokenDescriptor);",
+              "protected": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(Microsoft.IdentityModel.Tokens.SecurityTokenDescriptor)"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\TokenService.cs",
+            "snippet": "var token = tokenHandler.CreateToken(tokenDescriptor);",
+            "protectedSnippet": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(Microsoft.IdentityModel.Tokens.SecurityTokenDescriptor)",
+            "label": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(Microsoft.IdentityModel.Tokens.SecurityTokenDescriptor)",
+            "line": 31,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "96020bf5-cb7d-4fc5-9ccc-8e1c92c352c9",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var tokenHandler = new JwtSecurityTokenHandler();",
+              "protected": "T:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\TokenService.cs",
+            "snippet": "var tokenHandler = new JwtSecurityTokenHandler();",
+            "protectedSnippet": "T:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler",
+            "label": "T:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler",
+            "line": 15,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "391f5fac-ca6c-45be-9f62-c00ba63c9487",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var tokenHandler = new JwtSecurityTokenHandler();",
+              "protected": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.#ctor"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\TokenService.cs",
+            "snippet": "var tokenHandler = new JwtSecurityTokenHandler();",
+            "protectedSnippet": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.#ctor",
+            "label": "M:System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.#ctor",
+            "line": 15,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "5cdbe44f-c719-4c4d-beae-db45febacaa6",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string password = ConfigurationManager.AppSettings[\u0022Password\u0022];",
+              "protected": "T:System.Configuration.ConfigurationManager"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\EmailService.cs",
+            "snippet": "string password = ConfigurationManager.AppSettings[\u0022Password\u0022];",
+            "protectedSnippet": "T:System.Configuration.ConfigurationManager",
+            "label": "T:System.Configuration.ConfigurationManager",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 19,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "c131bf07-20e5-47de-b1dc-b1bbeb5c945e",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string password = ConfigurationManager.AppSettings[\u0022Password\u0022];",
+              "protected": "P:System.Configuration.ConfigurationManager.AppSettings"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\EmailService.cs",
+            "snippet": "string password = ConfigurationManager.AppSettings[\u0022Password\u0022];",
+            "protectedSnippet": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "label": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 19,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "2a2674ab-df3b-4914-a98d-85da46a8a029",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string portString = ConfigurationManager.AppSettings[\u0022Port\u0022];",
+              "protected": "T:System.Configuration.ConfigurationManager"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\EmailService.cs",
+            "snippet": "string portString = ConfigurationManager.AppSettings[\u0022Port\u0022];",
+            "protectedSnippet": "T:System.Configuration.ConfigurationManager",
+            "label": "T:System.Configuration.ConfigurationManager",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 18,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "c87acfec-3caf-43a2-b86f-40f60159473b",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string portString = ConfigurationManager.AppSettings[\u0022Port\u0022];",
+              "protected": "P:System.Configuration.ConfigurationManager.AppSettings"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\EmailService.cs",
+            "snippet": "string portString = ConfigurationManager.AppSettings[\u0022Port\u0022];",
+            "protectedSnippet": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "label": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 18,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "fd2b797e-e174-4c9e-8c06-072a819fd955",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string email = ConfigurationManager.AppSettings[\u0022SenderEmail\u0022];",
+              "protected": "T:System.Configuration.ConfigurationManager"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\EmailService.cs",
+            "snippet": "string email = ConfigurationManager.AppSettings[\u0022SenderEmail\u0022];",
+            "protectedSnippet": "T:System.Configuration.ConfigurationManager",
+            "label": "T:System.Configuration.ConfigurationManager",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 17,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "f10edd36-b32d-4c32-9d73-043c0fd132ce",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string email = ConfigurationManager.AppSettings[\u0022SenderEmail\u0022];",
+              "protected": "P:System.Configuration.ConfigurationManager.AppSettings"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\EmailService.cs",
+            "snippet": "string email = ConfigurationManager.AppSettings[\u0022SenderEmail\u0022];",
+            "protectedSnippet": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "label": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 17,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "0144a05b-ff16-4cb6-b20f-f9c8967c91a0",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string smtpServer = ConfigurationManager.AppSettings[\u0022SmtpServer\u0022];",
+              "protected": "T:System.Configuration.ConfigurationManager"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\EmailService.cs",
+            "snippet": "string smtpServer = ConfigurationManager.AppSettings[\u0022SmtpServer\u0022];",
+            "protectedSnippet": "T:System.Configuration.ConfigurationManager",
+            "label": "T:System.Configuration.ConfigurationManager",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 16,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "23b498c6-0462-45d2-9dda-5834bc43fee3",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "App_Finan\u00E7as\\App_Finan\u00E7as.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "string smtpServer = ConfigurationManager.AppSettings[\u0022SmtpServer\u0022];",
+              "protected": "P:System.Configuration.ConfigurationManager.AppSettings"
+            },
+            "kind": "File",
+            "path": "App_Finan\u00E7as\\EmailService.cs",
+            "snippet": "string smtpServer = ConfigurationManager.AppSettings[\u0022SmtpServer\u0022];",
+            "protectedSnippet": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "label": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 16,
+            "column": 12
+          }
+        }
+      ],
+      "features": [
+        {
+          "featureId": "IdentityModel",
+          "incidents": [
+            "391f5fac-ca6c-45be-9f62-c00ba63c9487",
+            "96020bf5-cb7d-4fc5-9ccc-8e1c92c352c9",
+            "4ffb5b6d-399a-43d4-bc42-1ef21d896016",
+            "9c3d0108-f93e-44a1-83d3-a1fde64104d1"
+          ]
+        },
+        {
+          "featureId": "LegacyConfiguration",
+          "incidents": [
+            "23b498c6-0462-45d2-9dda-5834bc43fee3",
+            "0144a05b-ff16-4cb6-b20f-f9c8967c91a0",
+            "f10edd36-b32d-4c32-9d73-043c0fd132ce",
+            "fd2b797e-e174-4c9e-8c06-072a819fd955",
+            "c87acfec-3caf-43a2-b86f-40f60159473b",
+            "2a2674ab-df3b-4914-a98d-85da46a8a029",
+            "c131bf07-20e5-47de-b1dc-b1bbeb5c945e",
+            "5cdbe44f-c719-4c4d-beae-db45febacaa6",
+            "9afc560b-6baf-4214-8455-c00c90b10402",
+            "0a7cd75c-b387-4776-83f0-111f943f7045"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "A atualiza\u00E7\u00E3o do pacote NuGet \u00E9 recomendada para a estrutura de destino selecionada.\n\nRecomenda-se que os pacotes padr\u00E3o do .NET tenham vers\u00F5es correspondentes \u00E0 vers\u00E3o do .NET que o projeto se destina.\n\nAlguns outros pacotes tamb\u00E9m s\u00E3o conhecidos por funcionar melhor para as estruturas de destino selecionadas.",
+      "label": "Recomenda-se a atualiza\u00E7\u00E3o do pacote NuGet",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "isFeature": false,
+      "description": "A funcionalidade do pacote NuGet est\u00E1 inclu\u00EDda na refer\u00EAncia da estrutura.\n\nO pacote precisa ser removido.",
+      "label": "A funcionalidade do pacote NuGet est\u00E1 inclu\u00EDda na refer\u00EAncia da estrutura",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0001": {
+      "id": "Project.0001",
+      "isFeature": false,
+      "description": "O arquivo de projeto precisa ser convertido no estilo do SDK. Os projetos modernos do .NET Framework exigem uma altera\u00E7\u00E3o no formato de arquivo de projeto e usam o SDK correspondente \u00E0 funcionalidade e ao tipo de projeto.",
+      "label": "O arquivo de projeto precisa ser convertido no estilo do SDK",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Vis\u00E3o geral da portabilidade do .NET Framework para o .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": "SDKs do projeto .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "A estrutura de destino do projeto precisa ser alterada para a nova estrutura de destino que voc\u00EA selecionou para essa atualiza\u00E7\u00E3o.\n\nDurante a atualiza\u00E7\u00E3o, a estrutura de destino ser\u00E1 ajustada para a plataforma correspondente, quando aplic\u00E1vel. Em alguns casos, o projeto ter\u00E1 v\u00E1rias estruturas de destino ap\u00F3s\u00A0a atualiza\u00E7\u00E3o se estiver usando recursos que agora t\u00EAm suas pr\u00F3prias plataformas nas estruturas modernas do .NET (Windows, iOS, Android etc.).",
+      "label": "As estruturas de destino do projeto precisam ser alteradas",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Vis\u00E3o geral da portabilidade do .NET Framework para o .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": "SDKs do projeto .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "isFeature": false,
+      "description": "A API \u00E9 incompat\u00EDvel com a origem para a vers\u00E3o selecionada do .NET: ela exige altera\u00E7\u00F5es de c\u00F3digo para ser compilada com sucesso ao ser direcionada para uma nova vers\u00E3o, como remover APIs obsoletas ou alterar assinaturas de m\u00E9todo.",
+      "label": "Origem incompat\u00EDvel com a vers\u00E3o selecionada do .NET",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Altera\u00E7\u00F5es interruptivas no .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0001": {
+      "id": "Api.0001",
+      "isFeature": false,
+      "description": "A API \u00E9 incompat\u00EDvel em n\u00EDvel bin\u00E1rio com a vers\u00E3o selecionada do .NET: isso afeta os bin\u00E1rios existentes, muitas vezes exigindo recompila\u00E7\u00E3o, porque a API foi alterada de uma forma que impede o carregamento ou a execu\u00E7\u00E3o de bin\u00E1rios mais antigos.",
+      "label": "Bin\u00E1rio incompat\u00EDvel com a vers\u00E3o selecionada do .NET",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Altera\u00E7\u00F5es interruptivas no .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "IdentityModel": {
+      "id": "IdentityModel",
+      "isFeature": false,
+      "description": "Windows Identity Foundation (WIF), SAML, and claims-based authentication APIs that have been replaced by modern identity libraries. WIF was the original identity framework for .NET Framework. Migrate to Microsoft.IdentityModel.* packages (modern identity stack).",
+      "label": "IdentityModel \u0026 Claims-based Security",
+      "severity": "Mandatory",
+      "effort": 4,
+      "links": [
+        {
+          "title": "Microsoft.IdentityModel packages",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341614",
+          "isCustom": false
+        }
+      ]
+    },
+    "LegacyConfiguration": {
+      "id": "LegacyConfiguration",
+      "isFeature": false,
+      "description": "Legacy XML-based configuration system (app.config/web.config) that has been replaced by a more flexible configuration model in .NET Core. The old system was rigid and XML-based. Migrate to Microsoft.Extensions.Configuration with JSON/environment variables; use System.Configuration.ConfigurationManager NuGet package as interim bridge if needed.",
+      "label": "Legacy Configuration System",
+      "severity": "Mandatory",
+      "effort": 2,
+      "links": [
+        {
+          "title": "Configuration in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341702",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

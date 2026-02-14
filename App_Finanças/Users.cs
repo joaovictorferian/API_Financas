@@ -20,12 +20,5 @@ namespace App_Finanças
             HashPassword = hashPassword;
             Phone = phone;
         }
-
-        internal class User
-        {
-            static void Main(string[] args)
-            {
-            }
-        }
     }
 }
