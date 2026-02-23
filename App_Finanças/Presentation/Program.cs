@@ -30,8 +30,7 @@ namespace App_Finanças
             var tokenService = new TokenService();
             var token = tokenService.GenerateToken(email);
             Console.WriteLine("Generated token: " + token);
-
-            // Authentication.Authenticate will throw because its internal dependencies are not initialized.
+            
             try
             {
                 var auth = new Authentication();
@@ -42,8 +41,7 @@ namespace App_Finanças
             {
                 Console.WriteLine("Authentication.Authenticate threw: " + ex.GetType().Name + " - " + ex.Message);
             }
-
-            // EmailService.SendEmail in current project reads config and may attempt to connect if implemented.
+            
             try
             {
                 var emailService = new EmailService();
