@@ -23,7 +23,10 @@ namespace App_Finanças.Application.Services
             {
                 throw new ArgumentException("O título é obrigatório");
             }
-
+            if (income.Date == null)
+            {
+                throw new ArgumentException("A data é obrigatória");
+            }
         }
 
     }
