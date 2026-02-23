@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Itens de Solução/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="App_Finanças/App_Finanças.csproj" Id="851672b8-7697-4578-9ebd-6b3d91f25724" />
 </Solution>
