@@ -72,3 +72,9 @@ C:\Users\joaov\source\repos\App_Finanças\App_Finanças\obj\Debug\App_Finanças.
 C:\Users\joaov\source\repos\App_Finanças\App_Finanças\obj\Debug\App_Fina.A2D60446.Up2Date
 C:\Users\joaov\source\repos\App_Finanças\App_Finanças\obj\Debug\App_Finanças.exe
 C:\Users\joaov\source\repos\App_Finanças\App_Finanças\obj\Debug\App_Finanças.pdb
+C:\Users\joaov\source\repos\joaovictorferian\API_Financas\App_Finanças\obj\Debug\App_Finanças.csproj.AssemblyReference.cache
+C:\Users\joaov\source\repos\joaovictorferian\API_Financas\App_Finanças\obj\Debug\App_Finanças.csproj.SuggestedBindingRedirects.cache
+C:\Users\joaov\source\repos\joaovictorferian\API_Financas\App_Finanças\obj\Debug\App_Finanças.exe.config
+C:\Users\joaov\source\repos\joaovictorferian\API_Financas\App_Finanças\obj\Debug\App_Finanças.csproj.CoreCompileInputs.cache
+C:\Users\joaov\source\repos\joaovictorferian\API_Financas\App_Finanças\obj\Debug\App_Finanças.exe
+C:\Users\joaov\source\repos\joaovictorferian\API_Financas\App_Finanças\obj\Debug\App_Finanças.pdb

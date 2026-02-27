@@ -16,7 +16,7 @@ namespace App_Finanças.Application.Services
 
         public string Category { get; set; }
 
-        public int Value { get; set; }  
+        public double Value { get; set; }  
 
         public DateTime Date { get; set; }
 
